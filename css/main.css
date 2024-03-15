@@ -9,6 +9,7 @@ header {
   line-height: 100px;
   position: fixed;
   top: 0;
+  z-index: 9999;
 }
 header .inner-header {
   /* border: 3px solid tomato; */
@@ -73,3 +74,54 @@ header .inner-header .tnb li {
   background: #fff;
   color: orange;
  }
+
+ /* section.main style */
+section.main {
+  background: url('../img/vis_4.jpg') no-repeat center/cover fixed;
+  height: 100vh;
+  position: relative;
+}
+
+section.main .main-title {
+  /* background: red; */
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 10px #123;
+}
+
+section.main .main-title h2 {
+  font-size: 55px;
+}
+
+section.main .main-title p {
+  font-size: 25px;
+  margin: 20px 0;
+}
+section.main .main-title .view {
+  font-size: 15px;
+  letter-spacing: 2px;
+
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  padding: 8px 0;
+  overflow: hidden; /* 모서리 넘치는 거 지움 */
+
+  position: relative;
+}
+
+section.main .main-title .view::after {
+  content: '';
+  width: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.3s; /**/
+}
+section.main .main-title .view:hover::after {
+  width: 100%;
+}
