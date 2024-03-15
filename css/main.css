@@ -209,3 +209,153 @@ section.about ul.sub-container li .text .more::before {
   left: 0;
   top: -7px;
 }
+
+
+section.innovation {
+  /* background: yellowgreen; */
+}
+section.innovation .sub-container {
+  /* background: violet; */
+  margin-top: 30px;
+  height: 540px;
+  display: block;
+  background-image: url(/img/product_1.jpg);
+}
+section.innovation .sub-container .inner {
+  width: 50%;
+  height: 240px;
+  margin-left: 10%;
+  margin-top: 24%;
+  position: absolute;
+  background: violet;
+}
+section.innovation .sub-container .inner .en {
+  height: 90px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 30px;
+  
+  background: #fff;
+}
+section.innovation .sub-container .inner span {
+  color: orange;
+  word-spacing: 10px;
+}
+section.innovation .sub-container .inner .bottom {
+  height: 150px;
+  color: #fff;
+  display: block;
+  background: #123;
+}
+section.innovation .sub-container .inner .bottom p {
+  width: 80%;
+  font-size: 20px;
+  padding: 50px;
+  float: left;
+}
+section.innovation .sub-container .inner .bottom a {
+  margin-top: 55px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid orange;
+  border-radius: 20px;
+  background: orange;
+  position: absolute;
+  float: left;
+}
+
+
+section.me {
+  margin-top: 250px;
+  height: 890px;
+  background-image: url(/img/me.jpg);
+  display: block;
+}
+section.me .title {
+  margin-top: 3%;
+  margin-left: 40%;
+  position: absolute;
+}
+
+section.me .sub-container {
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 70%;
+  line-height: 110%;
+  border-top: 3px solid #111;
+  border-bottom: 3px solid #111;
+  position: absolute;
+}
+section.me .sub-container li {
+  margin: 3%;
+}
+/* section.me .sub-container li:first-child  */
+section.me .sub-container h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+section.me .sub-container i {
+  color: orange;
+  margin-right: 1%;
+}
+section.me .sub-container p {
+  margin: 1%;
+  font-weight: 500;
+}
+section.me .sub-container > li:first-child {
+  padding-bottom: 2%;
+  border-bottom: 2px solid #ddd;
+}
+section.me .sub-container > li:first-child p {
+  margin-left: 4%;
+  line-height: 200%;
+}
+section.me .sub-container > li:first-child a {
+ padding: 4%;
+ font-weight: 700;
+}
+
+section.me .sub-container > li:nth-child(2) > p {
+  margin-left: 4%;
+}
+
+section.me .sub-container .in {
+  margin-left: 10%;
+  display: block;
+}
+section.me .sub-container .in em {
+  margin-left: -8%;
+  font-weight: 700;
+  position: absolute;
+}
+section.me .sub-container .in em::after {
+  content: '●';
+  font-size: 50%;
+  color: orange;
+  display: block;
+  left: 100px;
+  top: 0;
+  position: absolute;
+}
+section.me .sub-container > li:nth-child(2) > a {
+  padding: 4%;
+  line-height: 500%;
+  font-weight: 700;
+}
+section.me button {
+  margin-top: 40%;
+  margin-left: 42%;
+  padding: 15px 60px 15px;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  border: 1px solid orange;
+  border-radius: 50px;
+  background: orange;
+  position: absolute;
+  color: #fff;
+}
+section.me button:hover {
+  cursor: pointer;
+}
