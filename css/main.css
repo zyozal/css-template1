@@ -251,24 +251,29 @@ section.innovation .sub-container .inner .bottom p {
   width: 80%;
   font-size: 20px;
   padding: 50px;
+  line-height: 1.5;
   float: left;
 }
 section.innovation .sub-container .inner .bottom a {
-  margin-top: 55px;
-  padding: 10px;
+  margin-top: 70px;
+  padding: 7px 30px;
   text-align: center;
-  border: 1px solid orange;
   border-radius: 20px;
   background: orange;
   position: absolute;
-  float: left;
+  float: right;
 }
+section.innovation .sub-container .inner .bottom a:hover{
+  background: orangered;
+}
+
+
 
 
 section.me {
   margin-top: 250px;
   height: 890px;
-  background-image: url(/img/me.jpg);
+  background: url(/img/me.jpg) no-repeat center/cover;
   display: block;
 }
 section.me .title {
@@ -319,10 +324,13 @@ section.me .sub-container > li:first-child a {
 section.me .sub-container > li:nth-child(2) > p {
   margin-left: 4%;
 }
-
+section.me .sub-container > li:nth-child(2) > a {
+  padding: 4%;
+  line-height: 500%;
+  font-weight: 700;
+}
 section.me .sub-container .in {
   margin-left: 10%;
-  display: block;
 }
 section.me .sub-container .in em {
   margin-left: -8%;
@@ -333,29 +341,52 @@ section.me .sub-container .in em::after {
   content: '●';
   font-size: 50%;
   color: orange;
-  display: block;
   left: 100px;
   top: 0;
   position: absolute;
 }
-section.me .sub-container > li:nth-child(2) > a {
-  padding: 4%;
-  line-height: 500%;
-  font-weight: 700;
-}
-section.me button {
+#incruit-btn {
   margin-top: 40%;
   margin-left: 42%;
-  padding: 15px 60px 15px;
+  padding: 10px 60px;
   text-align: center;
   font-size: large;
   font-weight: 600;
-  border: 1px solid orange;
   border-radius: 50px;
   background: orange;
   position: absolute;
   color: #fff;
 }
-section.me button:hover {
+#incruit-btn:hover {
+  background: orangered;
   cursor: pointer;
+}
+
+
+section.sns {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+section.sns ul {
+  /* background: orange; */
+  margin: 50px auto;
+}
+section.sns ul li {
+  /* border: 3px solid #000; */
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+section.sns ul li:last-child {
+  margin-right: 0;
+}
+section.sns ul li .img-box {
+  height: 225px;
+  overflow: hidden;
+  position: relative;
+}
+section.sns ul li .img-box img {
+  width: 100%;
+  /* opacity: 0.4; */
 }
