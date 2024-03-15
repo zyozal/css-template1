@@ -125,3 +125,87 @@ section.main .main-title .view::after {
 section.main .main-title .view:hover::after {
   width: 100%;
 }
+
+
+/* section > div.title 공통 style */
+section .title {
+  text-align: center;
+}
+
+section .title h2 {
+  font-size: 45px;
+  color: #111;
+  margin-bottom: 5px;
+}
+
+section .title p {
+  font-size: 18px;
+  color: #555;
+}
+
+section .sub-container {
+  /* background: turquoise; */
+  width: 74%;
+  margin: 0 auto;
+}
+
+/* section.about style */
+section.about {
+  margin: 80px 0;
+}
+section.about ul.sub-container {
+  /* background: yellowgreen; */
+  margin-top: 30px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 30px;
+}
+section.about ul.sub-container li {
+  float: left;
+  width: 33.33%;
+  height: 510px;
+}
+section.about ul.sub-container li a:hover .img-box img {
+  transform: scale(1.2);
+}
+section.about ul.sub-container li .img-box {
+  /* border-bottom: 2px solid #ddd; */
+  overflow: hidden;
+}
+section.about ul.sub-container li .img-box img {
+  /* opacity: 0.3; */
+  width: 100%;
+  transition: 0.6s;
+}
+section.about ul.sub-container li .text {
+  /* border: 3px solid blue; */
+  padding: 25px;
+}
+section.about ul.sub-container li .text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+section.about ul.sub-container li .text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+section.about ul.sub-container li .text .more {
+  text-transform: uppercase;
+  font-weight: 700;
+  /* border: 2px solid #000; */
+  position: relative;
+  padding-left: 40px;
+  /* height: 30px; */
+}
+section.about ul.sub-container li .text .more::before {
+  content: '→';
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: orange;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  top: -7px;
+}
